@@ -75,8 +75,8 @@ async def type_and_send(message):
         responsess = responsee.replace("Aco", f"{KONTOL}")
     else:
         responsess = responsee
-    if "Who is feri?" in responsess:
-        responsess2 = responsess.replace("Who is feri?", "Nani?👀")
+    if "Who is liya?" in responsess:
+        responsess2 = responsess.replace("Who is liya?", "baby?👀")
     else:
         responsess2 = responsess
     await message.reply_text(responsess2)
@@ -96,10 +96,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Source", url="https://github.com/FeriEXP/FeriChatBot"
+                        "Support", url="https://t.me/tzkid"
                     ),
                     InlineKeyboardButton(
-                        "GROUP", url="https://t.me/anossupport"
+                        "UPDATES", url="https://t.me/kidbots"
                     )
                 ]
             ]
